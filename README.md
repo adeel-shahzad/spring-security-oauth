@@ -1,3 +1,10 @@
+# About this repository
+This repository was forked the the main [spring-security-oath](https://github.com/SpringSource/spring-security-oauth/) project
+to allow us to support multiple redirect URLs. These changes have subsequently been 
+incorporated into the [core product](https://github.com/SpringSource/spring-security-oauth/) 
+and should be used in preference to this unless you are developing against the 
+[ORCID codebase](https://github.com/orcid/)
+
 This project provides support for using Spring Security with OAuth
 (1a) and OAuth2.  It provides features for implementing both consumers
 and providers of these protocols using standard Spring and Spring
@@ -5,7 +12,7 @@ Security programming models and configuration idioms.
 
 # Getting Started
 
-[Dowload](https://github.com/SpringSource/spring-security-oauth/tags)
+[Download](https://github.com/SpringSource/spring-security-oauth/tags)
 or clone from
 [GIT](https://github.com/SpringSource/spring-security-oauth) and then
 use Maven (2.2.*):
